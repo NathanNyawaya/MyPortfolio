@@ -56,3 +56,11 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* thanks */
+#thanks {
+    background-image: url('../pics/bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
