@@ -1,0 +1,58 @@
+#home{
+    background-image: url('../pics/bg-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* animate nathan */
+@keyframes natho {
+    0% {transform: rotateY(1800deg);}
+    100% {transform: rotateY(-1800deg);}
+}
+#nathan{
+    background-color: transparent;
+    animation-name: natho;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#nathan:hover{
+    animation: none;
+}
+
+/* btn toggler */
+.navbar-toggler:hover {
+    background-color: green;
+}
+
+/* toggler icon */
+.mk {
+    background-color: darkgrey;
+    border-radius: 50%;
+}
+.mk:hover{
+    background-color: orange;
+}
+
+/* profile image */
+.ctimg{
+    border-radius: 0%;
+}
+
+/* contact page */
+#contact{
+    background-image: url('../pics/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* software */
+#software{
+    background-image: url('../pics/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
