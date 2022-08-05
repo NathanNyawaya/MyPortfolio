@@ -38,7 +38,7 @@
 
 /* profile image */
 .ctimg{
-    border-radius: 0%;
+    clip-path: circle();
 }
 
 /* contact page */
