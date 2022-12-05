@@ -57,6 +57,22 @@
     background-size: cover;
 }
 
+.project_img { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-timing-function: ease; 
+} 
+    
+/*change the number below to scale to the appropriate size*/ 
+.project_img:hover { 
+    transform: scale(1.5); 
+}
+
 /* thanks */
 #thanks {
     background-image: url('../pics/bg2.jpg');
